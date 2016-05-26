@@ -1,0 +1,55 @@
+
+a{
+    text-decoration: none;
+    color:purple;
+    transition: color 1s;
+}
+
+a:hover{
+    color:whitesmoke;
+}
+
+h1#titulo{
+    font-family: titulo;
+    font-size: 65px;
+}
+header{
+    padding:5px;
+    background-image: url("../imagens/black-background.jpg");
+    text-align: center;
+}
+
+body{
+    background-image: url("../imagens/dark-blue-background.jpg");
+    font-family:"Times New Roman" ,Times,serif;
+    font-size: 20px;
+    color: #99ff00;
+}
+
+
+nav#menu ul {
+    list-style-type: none;
+    margin:2px;
+    padding: 0;
+    text-align: left;
+}
+
+nav#menu ul li{
+    display:inline;
+}
+nav#menu ul li a{
+    background-color: rgb(255,0,255);
+    display:inline-block;
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 10px 14px;
+    transition: background-color 1s;
+
+}
+
+
+
+nav#menu ul li a:hover{
+    background-color: #2F4F4F;
+}
+

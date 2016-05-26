@@ -1,0 +1,36 @@
+nav.bd ul{
+    list-style-type: none;
+    float:right;
+    margin:60px 40px;
+
+}
+
+nav.bd li a{
+    display:block;
+    width:200px;
+    text-align: center;
+    text-decoration: activecaption;
+    border:1px solid blue;
+    color:white;
+    background-color:rgb(255,0,255);
+    padding:8px;
+    transition: background-color 1s;
+}
+
+nav.bd li a:hover{
+    background-color: #2F4F4F;
+}
+
+
+table{
+    margin:80px 40px;
+
+}
+
+
+td,th{
+    text-align: center;
+    border:1px solid;
+    padding: 6px;
+
+}
